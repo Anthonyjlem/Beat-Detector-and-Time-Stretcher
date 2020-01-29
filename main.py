@@ -11,9 +11,9 @@ sampler = Sampler()
 p = pyaudio.PyAudio()
 
 # Initialize the song to be played
-song = "hand_in_hand_voice.wav"
+song = "song.wav" # only .wav files will work
 tempo = 150 # use tempo of your song here
-audio_file = os.path.join(os.path.dirname(__file__), "Media/Music/", song)
+audio_file = os.path.join(os.path.dirname(__file__), "Media/Music/", song) # delete "Media/Music/" if you don't have those directories
 audio = Sound.from_file(audio_file)
 
 # Open stream
