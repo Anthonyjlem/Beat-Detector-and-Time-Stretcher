@@ -1,6 +1,6 @@
 from aupyom import Sound, Sampler
-import aubio # install microsoft VS and SDK https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
-import numpy as np # python has to be at least version 3.5
+import aubio
+import numpy as np
 import os
 import pyaudio
 import sys
